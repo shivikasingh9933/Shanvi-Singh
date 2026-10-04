@@ -1,257 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shanvi Singh | Official Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shanvi Singh - Telegram Page">
+  <title>Shanvi Singh | Telegram</title>
 
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-  font-family:Arial,Helvetica,sans-serif;
-  background:#080709;
-  color:#fff;
-  overflow-x:hidden;
-}
-a{text-decoration:none;color:inherit}
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-.top{
-  position:sticky;
-  top:0;
-  z-index:20;
-  background:linear-gradient(90deg,#ed0870,#ff4b9b);
-  padding:18px 15px;
-  text-align:center;
-  font-size:20px;
-  font-weight:800;
-}
+    html {
+      scroll-behavior: smooth;
+    }
 
-.header{
-  background:#09090a;
-  padding:22px 25px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  border-bottom:1px solid #32101f;
-}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080709;
+      color: white;
+      overflow-x: hidden;
+    }
 
-.brand{
-  display:flex;
-  align-items:center;
-  gap:15px;
-  font-size:25px;
-  font-weight:800;
-  color:#ff2380;
-}
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-.telegram{
-  width:48px;
-  height:48px;
-  border-radius:50%;
-  background:#28a9e0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:25px;
-}
+    .top-bar {
+      background: linear-gradient(90deg, #ed087d, #ff4ca5);
+      text-align: center;
+      padding: 18px 10px;
+      font-size: 20px;
+      font-weight: 700;
+    }
 
-.fire{
-  background:#f41479;
-  border-radius:30px;
-  padding:14px 22px;
-  font-size:22px;
-}
+    .navbar {
+      background: #080709;
+      border-bottom: 1px solid #321322;
+      padding: 18px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-.hero{
-  min-height:700px;
-  padding:80px 25px 70px;
-  text-align:center;
-  background:
-    radial-gradient(circle at 50% 40%,#260915 0,#0b080a 55%,#070607 100%);
-}
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: #ff1685;
+      font-size: 30px;
+      font-weight: 800;
+    }
 
-.badge{
-  display:inline-block;
-  border:1px solid #ff187c;
-  color:#ff6aab;
-  padding:12px 30px;
-  border-radius:35px;
-  font-size:20px;
-  font-weight:bold;
-  margin-bottom:55px;
-}
+    .telegram-logo {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #229ed9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+    }
 
-h1{
-  font-size:48px;
-  line-height:1.08;
-  margin-bottom:30px;
-}
+    .fire-btn {
+      background: #f20b7b;
+      border: none;
+      border-radius: 40px;
+      padding: 18px 30px;
+      color: white;
+      font-size: 22px;
+      cursor: pointer;
+    }
 
-.pink{color:#ff1680}
+    section {
+      padding: 90px 25px;
+      text-align: center;
+      background: radial-gradient(circle at center, #260b19, #080709 65%);
+    }
 
-.subtitle{
-  color:#b7b1b5;
-  font-size:19px;
-  line-height:1.8;
-  max-width:650px;
-  margin:auto;
-}
+    .badge {
+      display: inline-block;
+      border: 1px solid #ff1685;
+      border-radius: 40px;
+      padding: 14px 30px;
+      color: #ff72b5;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 45px;
+    }
 
-.btn{
-  display:inline-block;
-  margin-top:45px;
-  padding:20px 38px;
-  border-radius:50px;
-  background:linear-gradient(90deg,#ed0870,#ff1680);
-  font-size:20px;
-  font-weight:800;
-  box-shadow:0 10px 35px #ed087055;
-}
+    h1 {
+      font-size: clamp(45px, 10vw, 85px);
+      line-height: 1.05;
+      margin-bottom: 30px;
+    }
 
-.section{
-  padding:80px 25px;
-  text-align:center;
-  background:#0d090c;
-}
+    .pink {
+      color: #ff1685;
+    }
 
-.section h2{
-  font-size:40px;
-  margin-bottom:18px;
-}
+    .subtitle {
+      max-width: 750px;
+      margin: auto;
+      color: #aaa;
+      font-size: 22px;
+      line-height: 1.7;
+    }
 
-.line{
-  width:100px;
-  height:4px;
-  background:#ed0870;
-  margin:20px auto 35px;
-  border-radius:5px;
-}
+    .main-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 45px;
+      background: linear-gradient(90deg, #f20b7b, #ff1685);
+      padding: 22px 55px;
+      border-radius: 50px;
+      font-size: 24px;
+      font-weight: 800;
+      box-shadow: 0 0 35px rgba(255, 20, 130, .35);
+    }
 
-.card{
-  max-width:650px;
-  margin:25px auto;
-  padding:45px 30px;
-  border:1px solid #631536;
-  border-radius:25px;
-  background:#120b10;
-}
+    .why {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
 
-.icon{
-  font-size:55px;
-  margin-bottom:25px;
-}
+    .line {
+      width: 100px;
+      height: 5px;
+      background: #ff1685;
+      margin: 25px auto 45px;
+      border-radius: 10px;
+    }
 
-.card h3{
-  font-size:27px;
-  margin-bottom:18px;
-}
+    .card {
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 55px 30px;
+      border: 1px solid #5d1737;
+      border-radius: 35px;
+      background: #120b0f;
+    }
 
-.card p{
-  color:#aaa4a8;
-  font-size:18px;
-  line-height:1.7;
-}
+    .card-icon {
+      font-size: 65px;
+      margin-bottom: 25px;
+    }
 
-.footer{
-  padding:55px 20px;
-  text-align:center;
-  background:#070607;
-  color:#999;
-}
+    .card h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
 
-@media(max-width:600px){
-  h1{font-size:43px}
-  .section h2{font-size:35px}
-  .top{font-size:17px}
-}
-</style>
+    .telegram-box {
+      max-width: 650px;
+      margin: auto;
+      padding: 55px 25px;
+      border: 1px solid #5d1737;
+      border-radius: 35px;
+      background: #121214;
+    }
+
+    .username {
+      color: #ff1685;
+      font-size: 32px;
+      font-weight: 800;
+      margin: 25px 0 35px;
+    }
+
+    .float-btn {
+      position: fixed;
+      right: 25px;
+      bottom: 25px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: #229ed9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 35px;
+      box-shadow: 0 0 30px rgba(34,158,217,.5);
+      z-index: 20;
+    }
+
+    @media(max-width:600px) {
+      .navbar {
+        padding: 15px;
+      }
+
+      .brand {
+        font-size: 24px;
+      }
+
+      .telegram-logo {
+        width: 50px;
+        height: 50px;
+      }
+
+      .fire-btn {
+        padding: 14px 20px;
+      }
+
+      .main-btn {
+        padding: 20px 30px;
+        font-size: 19px;
+      }
+
+      .why {
+        font-size: 40px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<a class="top" href="https://t.me/Shanvi_099">
-🔥 Click Here To Join Telegram →
-</a>
-
-<header class="header">
-  <div class="brand">
-    <div class="telegram">➤</div>
-    <span>Shanvi Singh</span>
-  </div>
-  <a class="fire" href="https://t.me/Shanvi_099">🔥</a>
-</header>
-
-<section class="hero">
-  <div class="badge">✨ Official Page</div>
-
-  <h1>
-    Welcome To<br>
-    <span class="pink">Shanvi Singh</span><br>
-    Official Page
-  </h1>
-
-  <p class="subtitle">
-    Join our official Telegram channel to receive
-    the latest updates, exclusive content,
-    special announcements, and more.
-  </p>
-
-  <a class="btn" href="https://t.me/Shanvi_099">
-    ✈️ Join Telegram Now
+  <!-- TOP BAR -->
+  <a class="top-bar" href="https://t.me/Shanvi_099">
+    🔥 Click Here To Join Telegram →
   </a>
-</section>
 
-<section class="section">
-  <h2>Why Join <span class="pink">Shanvi Singh?</span></h2>
-  <div class="line"></div>
-
-  <p class="subtitle">
-    Everything you need in one official Telegram channel.
-  </p>
-
-  <div class="card">
-    <div class="icon">⚡</div>
-    <h3>Instant Access</h3>
-    <p>
-      Get immediate access to the latest updates
-      and content as soon as you join.
-    </p>
-  </div>
-</section>
-
-<section class="section">
-  <h2>Join Our <span class="pink">Official Telegram</span></h2>
-  <div class="line"></div>
-
-  <p class="subtitle">
-    Don't miss the latest updates and important announcements.
-    Join Shanvi Singh's official Telegram channel today!
-  </p>
-
-  <a class="btn" href="https://t.me/Shanvi_099">
-    👉 CLICK HERE TO JOIN TELEGRAM
-  </a>
-</section>
-
-<section class="section">
-  <h2>Connect <span class="pink">With Us</span></h2>
-  <div class="line"></div>
-
-  <div class="card">
-    <div class="icon">✈️</div>
-    <h3>TELEGRAM</h3>
-    <p>@Shanvi_099</p>
-
-    <a class="btn" href="https://t.me/Shanvi_099">
-      Join Official Telegram
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a class="brand" href="https://t.me/Shanvi_099">
+      <span class="telegram-logo">➤</span>
+      <span>Shanvi Singh</span>
     </a>
-  </div>
-</section>
 
-<footer class="footer">
-  © 2026 Shanvi Singh. All rights reserved.
-</footer>
+    <a class="fire-btn" href="https://t.me/Shanvi_099">🔥</a>
+  </nav>
+
+  <!-- HERO -->
+  <section>
+    <div class="badge">✨ Telegram Page</div>
+
+    <h1>
+      Welcome To<br>
+      <span class="pink">Shanvi Singh</span><br>
+      Telegram Page
+    </h1>
+
+    <p class="subtitle">
+      Join the Telegram channel to receive the latest updates,
+      announcements, exclusive content and more.
+    </p>
+
+    <a class="main-btn" href="https://t.me/Shanvi_099">
+      ➤ 🚀 Join Telegram Now
+    </a>
+  </section>
+
+  <!-- WHY JOIN -->
+  <section>
+    <h2 class="why">
+      Why Join <span class="pink">Shanvi Singh?</span>
+    </h2>
+
+    <div class="line"></div>
+
+    <p class="subtitle">
+      Everything you need in one Telegram channel.
+    </p>
+
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h2>Instant Access</h2>
+      <p class="subtitle">
+        Get quick access to the latest updates and content
+        as soon as they are posted.
+      </p>
+    </div>
+  </section>
+
+  <!-- TELEGRAM -->
+  <section>
+    <h2 class="why">
+      Join Our <span class="pink">Telegram Channel</span>
+    </h2>
+
+    <div class="line"></div>
+
+    <p class="subtitle">
+      Don't miss the latest updates and announcements.
+      Join Shanvi Singh on Telegram.
+    </p>
+
+    <div class="telegram-box">
+      <div class="telegram-logo" style="margin:auto;">➤</div>
+
+      <div class="username">@Shanvi_099</div>
+
+      <a class="main-btn" href="https://t.me/Shanvi_099">
+        ➤ Join Telegram
+      </a>
+    </div>
+  </section>
+
+  <!-- FLOATING TELEGRAM BUTTON -->
+  <a class="float-btn" href="https://t.me/Shanvi_099">
+    ➤
+  </a>
 
 </body>
 </html>
