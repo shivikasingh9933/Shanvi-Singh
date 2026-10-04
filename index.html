@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the official Telegram channel for updates, exclusive content and announcements.">
+  <title>Soniya Singh | Official Telegram</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top sticky CTA -->
+  <a class="top-bar" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener">
+    🔥 <span>Click Here To Join Telegram</span> <b>→</b>
+  </a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <div class="telegram-icon">➤</div>
+      <span>Soniya Singh</span>
+    </div>
+    <a class="fire-btn" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener">🔥</a>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="pill">✨ Official Page</div>
+      <h1>Welcome To<br><span>Soniya Singh</span><br>Official Page</h1>
+      <p>Join our official Telegram channel to receive the latest updates, exclusive content, special announcements, and more.</p>
+
+      <a class="main-btn" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener">
+        <span class="tg-small">➤</span> ✈️ Join Telegram Now
+      </a>
+    </section>
+
+    <!-- Why join -->
+    <section class="section why">
+      <div class="section-heading">
+        <h2>Why Join <span>Soniya<br class="mobile-only"> Singh</span>?</h2>
+        <div class="line"></div>
+        <p>Everything you need in one official Telegram channel</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Instant Access</h3>
+          <p>Get immediate access to the latest updates and content as soon as you join.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">✨</div>
+          <h3>Exclusive Content</h3>
+          <p>Stay connected with exclusive posts, updates and announcements shared with members.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🔔</div>
+          <h3>Latest Updates</h3>
+          <p>Don't miss important announcements. Everything is shared in one convenient place.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <h2>Join Our Official<br><span>Telegram Channel</span></h2>
+      <div class="line"></div>
+      <p>Don't miss out on the latest updates, exclusive content, and important announcements. Join Soniya Singh's official Telegram channel today!</p>
+
+      <a class="main-btn" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener">
+        <span class="tg-small">➤</span> 👉 CLICK HERE TO JOIN TELEGRAM
+      </a>
+    </section>
+
+    <!-- Member feedback -->
+    <section class="section members">
+      <div class="section-heading">
+        <h2>What Members <span>Say</span></h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>“Easy to join and the updates are posted in one place.”</p>
+          <strong>— Telegram Member</strong>
+        </div>
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>“Simple, fast and convenient. I never miss an update.”</p>
+          <strong>— Telegram Member</strong>
+        </div>
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>“The channel keeps everything easy to find.”</p>
+          <strong>— Telegram Member</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section class="section connect">
+      <h2>Connect <span>With Us</span></h2>
+      <div class="line"></div>
+      <p>Join our official Telegram channel for updates and announcements.</p>
+
+      <div class="telegram-box">
+        <div class="big-tg">➤</div>
+        <div class="label">TELEGRAM</div>
+        <div class="username">@REPLACE_WITH_YOUR_USERNAME</div>
+        <a class="main-btn small-btn" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener">
+          <span class="tg-small">➤</span> Join Official Telegram
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Soniya Singh. All rights reserved.</p>
+  </footer>
+
+  <!-- Floating Telegram button -->
+  <a class="floating-btn" href="https://t.me/REPLACE_WITH_YOUR_USERNAME" target="_blank" rel="noopener" aria-label="Join Telegram">
+    ➤
+  </a>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Smooth click feedback
+    document.querySelectorAll("a[href*='REPLACE_WITH_YOUR_USERNAME']").forEach(btn => {
+      btn.addEventListener("click", () => {
+        btn.classList.add("clicked");
+        setTimeout(() => btn.classList.remove("clicked"), 300);
+      });
+    });
+  </script>
+</body>
+</html>
